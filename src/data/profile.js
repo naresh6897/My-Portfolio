@@ -10,7 +10,7 @@ export const profile = {
     github: "https://github.com/naresh6897",
     linkedin: "https://www.linkedin.com/in/nareshkasthuri6/",
     twitter: "",
-    portfolio: ""
+    portfolio: "https://naresh6897.github.io/My-Portfolio/"
   },
 
   hero: {

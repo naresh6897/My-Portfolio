@@ -1,7 +1,7 @@
 import { profile } from '../../data/profile';
 import "./About.css";
 import {animated, useSpring} from "react-spring";
-import yourPhoto from '../../assets/Nishika.JPG';
+import yourPhoto from '../../assets/Naresh2.JPG';
 export default function About () {
   const props = useSpring({
     from: { transform: "translateY(50px)", opacity: 0 },
@@ -18,7 +18,7 @@ export default function About () {
     
       <div className="text">
         <animated.p style={props}>
-        Hello! I’m Nishika, a tech enthusiast and lifelong learner, currently pursuing my Master’s in Computer Science at Wright State University. My academic journey began with a Bachelor’s degree in Computer Science from Jawaharlal Nehru Technological University, where my passion for technology and problem-solving took root.
+        Hello! I’m Naresh, a tech enthusiast and lifelong learner, currently pursuing my Master’s in Computer Science at Wright State University. My academic journey began with a Bachelor’s degree in Computer Science from Jawaharlal Nehru Technological University, where my passion for technology and problem-solving took root.
         <br /> <br/>
         Over the years, I’ve honed my skills in software development, competitive programming, and innovative thinking. I enjoy breaking down complex challenges and crafting creative solutions that make a difference. Whether it's collaborating with a team or leading a project, I bring energy, adaptability, and a can-do attitude to the table.
         <br/> <br/> 

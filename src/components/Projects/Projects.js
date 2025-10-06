@@ -1,4 +1,7 @@
-
+import { profile } from '../../data/profile';
+import React from 'react';
+import EachProject from './EachProject';
+import './Projects.css';
 const projects = [
   {
     title: 'FinBuddy – Smart Financial Assistant',
@@ -50,10 +53,7 @@ const projects = [
   }
 ];
 
-import { profile } from '../../data/profile';
-import React from 'react';
-import EachProject from './EachProject';
-import './Projects.css';
+
 const projectsData = [
   {
     title: 'My Portfolio Using React',

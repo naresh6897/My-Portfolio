@@ -13,20 +13,9 @@ const experienceList = [
     ],
     image: require('../../assets/tcs.jpeg')
   },
+
   {
     id: 2,
-    role: "Media Services – Python Automation",
-    company: "TCS (R&D)",
-    location: "Hyderabad, India",
-    period: "2023 – 2024",
-    bullets: [
-      "Automated multilingual video creation with Python, handling audio extraction, timestamp alignment, and AWS Transcribe for accurate Spanish captions.",
-      "Re‑composited audio/video with media processing libraries; expanded audience reach by 20% and cut production effort by 10%."
-    ],
-    image: require('../../assets/aiml.jpeg')
-  },
-  {
-    id: 3,
     role: "Academic Tutor",
     company: "Self‑Employed",
     location: "Hyderabad, India",

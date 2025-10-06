@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { useSpring, animated } from "react-spring";
 import {ThemeContext} from '../../App';
 import "./Home.css";
-import myImage from '../../assets/Nishika2.jpg';
+import myImage from '../../assets/Naresh2.jpg';
 
 const loadFontAwesome = () => {
   const link = document.createElement("link");
@@ -17,7 +17,7 @@ const loadFontAwesome = () => {
 const Home = () => {
 
   const resumeLink = () => {
-    window.open('https://drive.google.com/file/d/1zafkK72YfkVb25wkHlvTVFk1Ka5UQ8aE/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/10_uE0Kn5ItOeGtE5UxOWZ-SeydGocz7t/view?usp=drive_link', '_blank');
   };
 
   React.useEffect(() => {
@@ -42,7 +42,6 @@ const Home = () => {
           <h2>
             <Typewriter
               words={[
-                "Software Engineer Intern : AI/ML",
                 "Assistant System Engineer ",
                 "Academic Tutor(Self Employed)",
                 "Graduate Computer Science Student"
@@ -56,7 +55,7 @@ const Home = () => {
             />
           </h2>
           <p>
-          I’m a Computer Science graduate student at Wright State University with expertise in AI/ML and full-stack development. I’m passionate about solving complex problems, building impactful solutions, and exploring innovative technologies. 
+          I’m a Computer Science graduate student at Conestoga college with expertise in AI/ML and full-stack development. I’m passionate about solving complex problems, building impactful solutions, and exploring innovative technologies. 
           <br /> <br/>
           Explore my work and let’s connect!
           </p>

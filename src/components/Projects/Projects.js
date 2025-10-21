@@ -65,7 +65,7 @@ const projectsData = [
     title: 'My Weather App Using React',
     description: 'Developed a web application using ReactJS that retrieves the current weather data for the users current location or any location they search for, as well as the five-day weather forecast, including the locations minimum and maximum temperatures, humidity, and sky conditions (cloudy, clear, rainy, fog, and mist). ',
     techStack: ['HTML5', 'CSS3','JavaScript','ReactJS'],
-    githubLink: 'https://{profile.socials.github}/weather.git'
+    githubLink: 'https://github.com/naresh6897/weather'
   },
   {
     title: 'Smart Plant Recognition',
